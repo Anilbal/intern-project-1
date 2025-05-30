@@ -1,9 +1,16 @@
 .carousel-image{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     border: 1px solid red;
 }
 .carousel-image img{
     height: 100%;
     width: 100%;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(216, 215, 215);
 }

@@ -1,16 +1,8 @@
 import { useEffect, useState } from "react"
 
-export default function Carousel() {
+export default function Carousel({products}) {
 
-    const [products,setProducts]=useState([])
     const [index,setIndex]=useState(0)
-    useEffect(() => {
-        fetch('https://fakestoreapi.com/products')
-        .then(res=>res.json())
-        .then(data=>setProducts(data))
-        .catch(err=>console.log(err))
-    }, [])
-    
     const handleIncrease=()=>{
         setIndex(prev=>prev+1)  
     }
