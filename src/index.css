@@ -1,9 +1,5 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(120deg, #2980b9, #6dd5fa);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
 }
