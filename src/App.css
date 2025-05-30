@@ -1,0 +1,9 @@
+.carousel-image{
+    height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+}
+.carousel-image img{
+    height: 100%;
+    width: 100%;
+}
