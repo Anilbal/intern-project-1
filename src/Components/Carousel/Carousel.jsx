@@ -19,7 +19,6 @@ export default function Carousel({products}) {
       }, [index]); 
     
 
-    console.log(index)
   return (
     <div className="carousel-image">
         {/* {
